@@ -200,7 +200,23 @@ img {
 .team-card__text {
   font-size: 14px;
   line-height: 16px;
-  /* identical to box height */
   color: #B2B2B2;
+}
+
+.footer {
+  background: #F7F7F7;
+}
+
+.footer__container {
+  padding: 20px 0;
+}
+
+.social__link {
+  color: #B2B2B2;
+  cursor: pointer;
+}
+
+.social__link:hover {
+  color: #727272;
 }
 /*# sourceMappingURL=style.css.map */

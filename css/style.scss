@@ -3,6 +3,8 @@
 $accent-color: rgba(85, 40, 255, 1);
 $default-text-color: #202020;
 $accent-text-color: white;
+$grey-text-color:#B2B2B2;
+$footer-bg-color: #F7F7F7;
 
 html {
     box-sizing: border-box;
@@ -157,8 +159,7 @@ img {
     &__text {
         font-size: 14px;
         line-height: 16px;
-
-        color: #B2B2B2;
+        color: $grey-text-color;
     }
 }
 
@@ -216,9 +217,25 @@ img {
     &__text {
         font-size: 14px;
         line-height: 16px;
-        /* identical to box height */
+        color: $grey-text-color;
+    }
+}
 
+.footer {
+    background: $footer-bg-color;
 
-        color: #B2B2B2;
+    &__container {
+        padding: 20px 0;
+    }
+}
+
+.social {
+    &__link {
+        color: $grey-text-color;
+        cursor: pointer;
+
+        &:hover {
+            color: darken($grey-text-color, 25)
+        }
     }
 }
