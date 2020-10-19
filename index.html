@@ -15,19 +15,19 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between align-items-center">
                 <div class="logo col-2">
-                    <a class="logo__link" href="">
+                    <a class="logo__link d-flex align-items-center" href="">
                         <img class="logo__img" src="./img/mamon-logo.svg" alt="mamon">
                         <span class="logo__name">mamon</span>
                     </a>
                 </div>
-                <nav class="header__nav col-4">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Services</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Clients</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Our team</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Contact Us</a></li>
+                <nav class="menu header__nav col-5">
+                    <ul class="menu__nav-list d-flex w-100 justify-content-between">
+                        <li class="menu__nav-item"><a class="menu__nav-link" href="#">Services</a></li>
+                        <li class="menu__nav-item"><a class="menu__nav-link" href="#">Clients</a></li>
+                        <li class="menu__nav-item"><a class="menu__nav-link" href="#">Our team</a></li>
+                        <li class="menu__nav-item"><a class="menu__nav-link" href="#">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -36,7 +36,7 @@
 
     <section class="about">
         <div class="container">
-            <h2 class="section__title">Our services</h2>
+
             <div class="row">
                 <h1 class="about__title col-12">We're an independent development agency.</h1>
             </div>
@@ -52,54 +52,60 @@
     </section>
 
     <section class="services">
+        <h2 class="section__title">Our services</h2>
         <div class="container">
+
             <div class="row justify-content-between">
-                <div class="card col-5">
+                <div class="services-card col-5">
                     <div class="row">
-                        <div class="card__pic col-3 d-flex align-content-center justify-content-center">
-                            <img class="card__img" src="./img/smartphone.svg" alt="Smartphone">
+                        <div class="services-card__pic col-3 d-flex align-content-center justify-content-center">
+                            <img class="services-card__img" src="./img/smartphone.svg" alt="Smartphone">
                         </div>
-                        <div class="card__inner col-9">
-                            <h3 class="card__title">Mobile Development</h3>
-                            <p class="card__text">We develop mobile apps for all contemporary mobile platforms. Mamon
+                        <div class="services-card__inner col-9">
+                            <h3 class="services-card__title">Mobile Development</h3>
+                            <p class="services-card__text">We develop mobile apps for all contemporary mobile platforms.
+                                Mamon
                                 team builds native and cross-platform solutions.</p>
                         </div>
                     </div>
                 </div>
-                <div class="card col-5">
+                <div class="services-card col-5">
                     <div class="row">
-                        <div class="card__pic col-3 d-flex align-content-center justify-content-center">
-                            <img class="card__img" src="./img/monitor.svg" alt="Monitor">
+                        <div class="services-card__pic col-3 d-flex align-content-center justify-content-center">
+                            <img class="services-card__img" src="./img/monitor.svg" alt="Monitor">
                         </div>
-                        <div class="card__inner col-9">
-                            <h3 class="card__title">Mobile Development</h3>
-                            <p class="card__text">We develop mobile apps for all contemporary mobile platforms. Mamon
+                        <div class="services-card__inner col-9">
+                            <h3 class="services-card__title">Mobile Development</h3>
+                            <p class="services-card__text">We develop mobile apps for all contemporary mobile platforms.
+                                Mamon
                                 team builds native and cross-platform solutions.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-between">
-                <div class="card col-5">
+                <div class="services-card col-5">
                     <div class="row">
-                        <div class="card__pic col-3 d-flex align-content-center justify-content-center">
-                            <img class="card__img" src="./img/layers.svg" alt="Layers">
+                        <div class="services-card__pic col-3 d-flex align-content-center justify-content-center">
+                            <img class="services-card__img" src="./img/layers.svg" alt="Layers">
                         </div>
-                        <div class="card__inner col-9">
-                            <h3 class="card__title">Mobile Development</h3>
-                            <p class="card__text">We develop mobile apps for all contemporary mobile platforms. Mamon
+                        <div class="services-card__inner col-9">
+                            <h3 class="services-card__title">Mobile Development</h3>
+                            <p class="services-card__text">We develop mobile apps for all contemporary mobile platforms.
+                                Mamon
                                 team builds native and cross-platform solutions.</p>
                         </div>
                     </div>
                 </div>
-                <div class="card col-5">
+                <div class="services-card col-5">
                     <div class="row">
-                        <div class="card__pic col-3 d-flex align-content-center justify-content-center">
-                            <img class="card__img" src="./img/test.svg" alt="Test">
+                        <div class="services-card__pic col-3 d-flex align-content-center justify-content-center">
+                            <img class="services-card__img" src="./img/test.svg" alt="Test">
                         </div>
-                        <div class="card__inner col-9">
-                            <h3 class="card__title">Mobile Development</h3>
-                            <p class="card__text">We develop mobile apps for all contemporary mobile platforms. Mamon
+                        <div class="services-card__inner col-9">
+                            <h3 class="services-card__title">Mobile Development</h3>
+                            <p class="services-card__text">We develop mobile apps for all contemporary mobile platforms.
+                                Mamon
                                 team builds native and cross-platform solutions.</p>
                         </div>
                     </div>
@@ -244,13 +250,13 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between align-items-center">
                 <div class="logo col-1">
                     <a class="logo__link" href="">
                         <img class="logo__img" src="./img/mamon-logo.svg" alt="mamon">
                     </a>
                 </div>
-                <div class="social row col-3 align-content-center">
+                <div class="social row col-3">
                     <i class="social__link fa fa-github col-3" aria-hidden="true" href=" #"></i>
                     <i class="social__link fa fa-behance col-3" aria-hidden="true" href="#"></i>
                     <i class="social__link fa fa-linkedin col-3" aria-hidden="true" href="#"></i>
