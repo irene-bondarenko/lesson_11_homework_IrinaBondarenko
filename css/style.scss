@@ -138,6 +138,18 @@ img {
         width: 200%;
     }
 
+    &[data-scroll] {
+        transition: all 1s ease-in-out;
+    }
+
+    &[data-scroll="in"] {
+        opacity: 1;
+    }
+
+    &[data-scroll="out"] {
+        opacity: 0;
+    }
+
 }
 
 .services {
@@ -161,6 +173,20 @@ img {
         line-height: 16px;
         color: $grey-text-color;
     }
+
+    &[data-scroll] {
+        transition: all 1s ease-in-out;
+    }
+
+    &[data-scroll="in"] {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    &[data-scroll="out"] {
+        opacity: 0;
+        transform: translateY(50px);
+    }
 }
 
 .clients {
@@ -172,6 +198,19 @@ img {
 .clients-card {
     margin-bottom: 64px;
     text-align: center;
+
+    &[data-scroll] {
+        transition: all 1s ease-in-out;
+        transition-delay: 0.5s;
+    }
+
+    &[data-scroll="in"] {
+        opacity: 1;
+    }
+
+    &[data-scroll="out"] {
+        opacity: 0;
+    }
 
 }
 
@@ -219,6 +258,20 @@ img {
         line-height: 16px;
         color: $grey-text-color;
     }
+
+    &[data-scroll] {
+        transition: all 1s ease-in-out;
+    }
+
+    &[data-scroll="in"] {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    &[data-scroll="out"] {
+        opacity: 0;
+        transform: translateY(50px);
+    }
 }
 
 .footer {
@@ -238,4 +291,17 @@ img {
             color: darken($grey-text-color, 25)
         }
     }
+}
+
+/*Animation*/
+[data-scroll] {
+    transition: all 1s ease-in-out;
+}
+
+[data-scroll="in"] {
+    opacity: 1;
+}
+
+[data-scroll="out"] {
+    opacity: 0;
 }
