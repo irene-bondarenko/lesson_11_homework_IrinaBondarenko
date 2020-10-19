@@ -1,7 +1,85 @@
 @charset "UTF-8";
 @import url(d:\!Fox\Проекты\PeaceIT\lesson_11_homework_IrinaBondarenko\css\bootstrap-reboot.min.css);
-/*# sourceMappingURL=style.css.map */
-
-.team-card__img {
-    width: 100px;
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #202020;
+  font-family: 'Hellix', Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding: 53px 0 100px 0;
+}
+
+.logo__link {
+  text-decoration: none;
+  color: #202020;
+}
+
+.logo__name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.menu__nav-list {
+  list-style: none;
+}
+
+.menu__nav-link {
+  text-decoration: none;
+  color: #202020;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 5px 14px;
+}
+
+.menu__nav-link:hover {
+  background-color: #5528ff;
+  color: white;
+  border-radius: 5px;
+}
+
+.about__title {
+  font-size: 53.5px;
+  line-height: 68px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.about__text {
+  font-size: 32px;
+  line-height: 52px;
+  margin-bottom: 70px;
+}
+
+.about__link {
+  text-decoration: none;
+  color: white;
+  background-color: #5528ff;
+  padding: 13px 40px;
+  font-size: 20px;
+  line-height: 28px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about__link:hover {
+  background-color: #2300a8;
+}
+/*# sourceMappingURL=style.css.map */
